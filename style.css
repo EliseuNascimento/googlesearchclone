@@ -100,11 +100,13 @@ aside{
 /*Conteúdo principal*/
 #results{
     color: #70757A;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 .searc-result-box{
     margin-bottom: 10px;
 }
-.container.ref-link{
+.container .ref-link{
     display: inline-block;
     font-size: 14px;
     color: #3C4043;
@@ -123,4 +125,131 @@ aside{
     position: absolute;
     top: 7px;
     right: -15px;
+}
+.main-link{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+.main-link:hover{
+    text-decoration: underline;
+}
+.searc-result-desc{
+    font-size: 14px;
+    color: #3C4043;
+    line-height: 1.57;
+    margin: 5px 0px;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.info{
+    flex: 1 1 1;
+    width: 50%;
+    color: #70757A;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.info-title{
+    font-weight: bold;
+}
+.related-results ul{
+    list-style: none;
+    padding-left: 5px 0px;
+}
+.related-results li{
+    display: inline-block;
+}
+.related-results li a{
+    font-size: 14px;
+    text-decoration: none;  
+}
+/*Side content(Gellery)*/
+#gallery-box{
+    height: 186px;
+    position: relative;
+}  
+#first-img{
+    border-top-left-radius: 10px;
+}
+#gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 305px;
+    height: 186px;
+    position: absolute;
+    top: 0;
+    left: 149px;
+}
+#gallery div{
+    flex: 1 1 30%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+#gallery-img1{
+    background-image: url(../img/turing2.jpg);
+}
+#gallery-img2{
+    background-image: url(../img/turing3.jpg);
+}
+#gallery-img3{
+    background-image: url(../img/turing4.jpg);
+}
+#gallery-img4{
+    background-image: url(../img/turing5.jpg);
+}
+#gallery-img5{
+    background-image: url(../img/turing6.jpg);
+}
+#gallery-img6{
+    background-image: url(../img/turing7.jpg);
+}
+/*Image button*/
+#moreimg-btn{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    font-size: 13px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    border-top-left-radius: 5px;
+}
+#moreimg-btn span{
+    margin-right: 5px;
+}
+/*Aside content*/
+#about-box{
+    border: 1px solid #ebebeb;
+}
+#name-box{
+    border-bottom: 1px solid #ebebeb;
+    padding: 0px 15px;
+}
+#name{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+#role{
+    color: #70757A;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.about-text{
+    font-size: 14px;
+    color: #222;
+    line-height: 1.57;
+    padding: 0px 15px;
+}
+.about-text span{
+    font-weight: bold;
 }
